@@ -1,0 +1,58 @@
+@import "colors";
+.btn {
+  padding: 15px 15px;
+  color: $primary-white;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  &:hover {
+    color: $primary-black;
+    text-decoration: underline $primary-black;
+  }
+}
+
+.fa-solid,
+.fa-brands {
+  cursor: pointer;
+}
+
+.btnDisplay {
+  padding: 25px;
+  width: 25px;
+  border-radius: 20px;
+  border: none;
+}
+
+.footerBtn {
+  background: white;
+  border: none;
+  padding: 25px;
+  color: $primary-black;
+  border-radius: 8px;
+  margin: 0 3px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.colorPicker {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  &::-webkit-color-swatch {
+    border-radius: 15px;
+    border: none;
+  }
+  &::-moz-color-swatch {
+    border-radius: 15px;
+    border: none;
+  }
+}

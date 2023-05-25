@@ -1,0 +1,23 @@
+.footerBar {
+  display: flex;
+  justify-content: center;
+  min-width: 100vw;
+  position: fixed;
+  bottom: 15px;
+}
+.colorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border: none;
+  padding: 5px;
+  color: $primary-black;
+  border-radius: 8px;
+  margin: 0 3px;
+}
+
+label {
+  cursor: pointer;
+}

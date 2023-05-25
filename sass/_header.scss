@@ -1,0 +1,37 @@
+.header1 {
+  min-width: 100vw;
+  min-height: 5vh;
+  background-color: $primary-black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 5px 0;
+  .notificationBtn {
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 5%;
+    border: none;
+    background: $primary-orange;
+  }
+}
+
+.header2 {
+  display: flex;
+  background-color: #00cc03;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  .left-side-header2 {
+    display: flex;
+    width: 15vw;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .right-side-header2 {
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
